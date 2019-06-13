@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4E82D4A4-632E-4F77-A274-CB5E36CA0CB8}") = "PingDong.Logging", "src\PingDong.AspNetCore\PingDong.AspNetCore.csproj", "{26E26AD3-DCA6-41AE-A718-E2B4AD7A0896}"
+EndProject
+Project("{EBCE5177-3E1F-499E-A4CD-0568544CAF5A}") = "PingDong.Logging.UnitTests", "src\PingDong.AspNetCore.UnitTests\PingDong.AspNetCore.UnitTests.csproj", "{5826DB3D-4F37-4975-866A-720F2D60C7CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E26AD3-DCA6-41AE-A718-E2B4AD7A0896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E26AD3-DCA6-41AE-A718-E2B4AD7A0896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E26AD3-DCA6-41AE-A718-E2B4AD7A0896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E26AD3-DCA6-41AE-A718-E2B4AD7A0896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5826DB3D-4F37-4975-866A-720F2D60C7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5826DB3D-4F37-4975-866A-720F2D60C7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5826DB3D-4F37-4975-866A-720F2D60C7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5826DB3D-4F37-4975-866A-720F2D60C7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17F29936-D8AE-4058-BB42-DF37A7A7BB5C}
+	EndGlobalSection
+EndGlobal
